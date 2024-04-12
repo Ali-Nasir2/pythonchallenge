@@ -3,7 +3,7 @@ import re # Regular expressions module
 import responses as long # Importing the long responses from the responses.py file
 
     #--------------------------------------------------------------------
-
+ 
     # Function to calculate the probability of a message being a certain response
 def mssg_prob(input_message, recognized_words, one_word=False, required_words=[]):
     # the function takes in the user message, the recognised words,
